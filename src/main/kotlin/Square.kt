@@ -1,10 +1,15 @@
 import Shape
 
-class Square(height: Int, length: Int,_name: String): Shape(_name) {
+class Square: Shape("Square") {
     fun setDimensions() {
         println("Enter Length: ")
         val lenght = readLine()
         println("Enter height: ")
-        val height = readLine()
+
     }
+
+    override fun printDimentsion() {
+        super.printDimentsion()
+    }
+
 }

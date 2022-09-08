@@ -1,7 +1,7 @@
 import java.util.DoubleSummaryStatistics
 
-interface Dimentionable {
+public interface Dimentionable {
     fun printDimentsion() {
-
     }
+
 }

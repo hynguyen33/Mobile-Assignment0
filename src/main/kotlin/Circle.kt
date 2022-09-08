@@ -1,4 +1,4 @@
-class Circle(r: Int,_name: String):Shape(_name) {
+class Circle :Shape("Circle") {
     fun setDimenstion(){
         println("Enter radius: ")
         val radius = readLine()

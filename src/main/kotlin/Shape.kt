@@ -5,4 +5,6 @@ abstract class Shape(_name : String): Dimentionable {
     fun getArea(): Double {
         return 0.0;
     }
+
+
 }
