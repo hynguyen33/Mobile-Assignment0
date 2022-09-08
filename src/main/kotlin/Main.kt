@@ -1,3 +1,8 @@
+import Shape
 fun main(args: Array<String>) {
-    println("Hello World!")
+    println("Enter shape: ")
+    val _name = readLine();
+    Circle = new Shape.Circle
+
+}
 }
